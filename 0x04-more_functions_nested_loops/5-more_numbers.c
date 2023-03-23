@@ -21,6 +21,6 @@ void more_numbers(void)
 			i++;
 		}
 		c++;
-		_putchar(10);
+		_putchar('\n');
 	}
 }
