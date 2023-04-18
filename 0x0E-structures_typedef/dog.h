@@ -1,8 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
 
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * struct dog - A new type description for dog
  * @name: The name of the dog.
@@ -25,4 +23,4 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif /* MAIN_H */
+#endif
