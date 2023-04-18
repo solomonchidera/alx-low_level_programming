@@ -5,9 +5,10 @@
 #include <stdlib.h>
 /**
  * struct dog - A new type description for dog
- * @name - The name of the dog
- * @age - The age of the dog
- * @owner - Owner of the dog
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: Owner of the dog.
+ * Description: Define a new type struct dog with the following elements
  */
 
 struct dog
