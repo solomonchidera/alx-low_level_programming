@@ -1,9 +1,10 @@
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * list_len - Returns the number of element in a linked list_tt list
  * @h: head of linked list
+ *
  * Return: number of element in list
  */
 
