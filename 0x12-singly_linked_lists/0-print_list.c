@@ -1,5 +1,23 @@
+
 #include <stdio.h>
 #include "lists.h"
+
+/**
+ * _strlen - returns the length
+ * @s: the string
+ * Return: int
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+	while (*s++)
+		i++;
+	return (i);
+}
 
 /**
  * print_list - a function that prints all the elements of a list_t list
@@ -10,7 +28,7 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t cat = 0;
+	size_t i = 0;
 
 	while (h)
 	{
@@ -19,8 +37,8 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%u] %s\n", h->len, h->str);
 		h = h->next;
-		cat++;
+		i++;
 	}
 
-	return (cat);
+	return (i);
 }
