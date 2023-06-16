@@ -13,11 +13,11 @@ size_t print_dlistint(const dlistint_t *h)
 	const dlistint_t *holder;
 	size_t iterator = 0;
 
-	hsolo = h;
-	while (holder != NULL)
+	hol = h;
+	while (hol != NULL)
 	{
-		printf("%d\n", holder->n);
-		holder = holder->next;
+		printf("%d\n", holr->n);
+		hol = hol->next;
 		iterator++;
 	}
 	return (iterator);
