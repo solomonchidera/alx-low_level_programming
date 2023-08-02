@@ -2,20 +2,24 @@
 
 /**
  * factorial a function that returns the factorial of a given number.
-
+ * @n the number or integar
  * Return 0 Always
  */
 
 int factorial(int n)
 {
 
-	if (n == 0 || n == 1)
+	if (n < 0)
 	{
-		return(1);
+		return (-1);
+	}
+	else if (n < 2)
+	{
+		return (n)
 	}
 	else
 	{
-		return n x factorial(n - 1);
+		return (n * factorial(n - 1));
 	}
-	return ()
+	return (0);
 }
