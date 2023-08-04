@@ -27,7 +27,7 @@ gcc -c -Wall -pedantic -Wextra -Werror -std=gnu89 file1.c file2.c -o static.o
 Next, you can create the static library by archiving the object files using the `ar` command:
 
 ```bash
-ar rcs libmyLibrary.a static.o
+ar -rc libmyLibrary.a static.o
 ```
 
 The `ar` command creates the static library `libmyLibrary.a` and stores the object files `file1.o` and `file2.o` within it.
@@ -37,7 +37,7 @@ The `ar` command creates the static library `libmyLibrary.a` and stores the obje
 To use the static library in your C program, you need to include its header files and link against the library during the compilation process. Here's an example compilation command:
 
 ```bash
-gcc main.c -L. -lmyLibrary -o my_program
+gcc main.c -L. -libmyLibrary -o testing
 ```
 
 In this command:
