@@ -1,6 +1,3 @@
-Certainly! Here's the content in a single markdown file:
-
-```markdown
 # Static Library in C
 
 ## Introduction
@@ -21,17 +18,16 @@ A static library, also known as an archive, is a collection of object files that
 
 ## Creating a Static Library
 
-To create a static library, you first need to compile the individual C source files into object files using a C compiler. For example, you can compile two C files, `file1.c` and `file2.c`, into object files `file1.o` and `file2.o` using the following commands:
+To create a static library, you first need to compile the individual C source files into object files using a C compiler. For example, you can compile two C files, `file1.c` and `file2.c`, into object files `static.o` using the following commands:
 
 ```bash
-gcc -c file1.c -o file1.o
-gcc -c file2.c -o file2.o
+gcc -c -Wall -pedantic -Wextra -Werror -std=gnu89 file1.c file2.c -o static.o
 ```
 
 Next, you can create the static library by archiving the object files using the `ar` command:
 
 ```bash
-ar rcs libmyLibrary.a file1.o file2.o
+ar rcs libmyLibrary.a static.o
 ```
 
 The `ar` command creates the static library `libmyLibrary.a` and stores the object files `file1.o` and `file2.o` within it.
