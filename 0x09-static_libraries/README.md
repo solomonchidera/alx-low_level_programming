@@ -58,7 +58,6 @@ Static libraries are suitable for projects with straightforward deployment requi
 ## Conclusion
 
 Static libraries are an essential part of C development, providing numerous benefits in terms of portability, performance, and dependency management. By understanding how to create and use static libraries effectively, you can improve your C projects' maintainability and distribution.
-```
 
 <details>
 <summary>Click to expand</summary>
