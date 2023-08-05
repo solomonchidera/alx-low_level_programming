@@ -3,6 +3,9 @@
 /**
  * main - Entry point
  *
+ * @argc - Argument count
+ * @argv - Argument vector
+ *
  * Return: 0 always
  */
 
