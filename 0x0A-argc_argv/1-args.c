@@ -12,7 +12,7 @@
 int main(int argc, int *argv[])
 {
 	int i;
-	(void)argv[];
+	(void)argv;
 
 	for (i = 0; i < argc; i++)
 	{
