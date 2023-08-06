@@ -1,3 +1,9 @@
+/**
+ * file name: 2-args.c
+ * Directory: 0x0A-argc_argv
+ * Owner: SolomonChidera
+ */
+
 #include "main.h"
 
 /**
@@ -5,6 +11,7 @@
  *
  * @argc: argument count
  * @argv: argument vector
+ * Return: 0 always
  */
 
 int main(int argc, char *argv[])
