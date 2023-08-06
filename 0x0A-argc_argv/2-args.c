@@ -1,10 +1,6 @@
 #include "main.h"
- 
+
 /**
- * file name: 2-args.c
- * Directory: 0x0A-argc_argv
- * Owner: SolomonChidera
- *
  * main - program that prints all arguments it receives.
  *
  * @argc: argument count
