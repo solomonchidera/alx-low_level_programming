@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
+#if 0
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+#endif
 int main(void)
 {
 	int n;
