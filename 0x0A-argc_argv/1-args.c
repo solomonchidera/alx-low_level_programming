@@ -5,13 +5,12 @@
  * @argc: argument count
  * @argv: argument vector
  *
- * Return 0 always
+ * Return: 0 always
  */
 
 int main(int argc, __attribute__((__unused__)) char *argv[])
 {
 	printf("%d", argc);
-	_putchar(10);
-
+	printf("\n");
 	return (0);
 }
