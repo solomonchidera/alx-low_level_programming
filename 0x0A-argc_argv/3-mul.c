@@ -21,7 +21,9 @@ int main(int argc, char *argv[])
 		printf("%d\n", sum);
 	}
 	else
+	{
 		printf("Error\n");
-
+		return (1);
+	}
 	return (0);
 }
