@@ -15,9 +15,20 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		for (count = 0; count < argc; count++)
-			sum += atoi(argv[count]);
+		for (count = 1; count < argc; count++)
+		{
+			char *endptr;
+			long num = strtol(argv[count], &endptr, 10);
 
+			/*checks if the entire argument is a valid integer*/
+			if (*endptr != '\0' && !isspace(*endptr))
+			{
+				printf("Error");
+				return (1);
+			}
+
+			sum += atoi(argv[count]);
+		}
 		printf("%d\n", sum);
 	}
 	else
