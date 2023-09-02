@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 
 	if (argc  == 3)
 	{
-		firstnum += atoi(argv[1]);
-		secnum += atoi(argv[2]);
+		firstnum = atoi(argv[1]);
+		secnum = atoi(argv[2]);
 		mul = firstnum * secnum;
 		printf("%d\n", mul);
 	}
