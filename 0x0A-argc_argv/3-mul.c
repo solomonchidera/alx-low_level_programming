@@ -11,11 +11,12 @@
 int main(int argc, char *argv[])
 {
 	int count, sum;
+
 	sum = 0;
 
 	if (argc > 1)
 	{
-		for (count = 0; count < argc; count++)
+		for (count = 1; count < argc; count++)
 			sum += atoi(argv[count]);
 
 		printf("%d\n", sum);
