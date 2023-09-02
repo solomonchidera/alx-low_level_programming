@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			/*checks if the entire argument is a valid integer*/
 			if (*endptr != '\0' && !isspace(*endptr))
 			{
-				printf("Error");
+				printf("Error\n");
 				return (1);
 			}
 
