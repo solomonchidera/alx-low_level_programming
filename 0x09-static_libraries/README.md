@@ -1,6 +1,3 @@
-Certainly, here's a full description of a static library in C in Markdown code:
-
-```markdown
 # Static Libraries in C
 
 Static libraries, often referred to as "archive files," are an essential concept in C programming. They provide a way to package and distribute reusable code as a single file that can be linked with other C programs during compilation. This README will explain what static libraries are, how to create them, and how to use them effectively in C development.
