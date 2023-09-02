@@ -10,16 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-	int count, sum;
+	int mul, firstnum, secnum;
 
-	sum = 0;
+	mul = 1;
 
-	if (argc > 1)
+	if (argc  == 3)
 	{
-		for (count = 1; count < argc; count++)
-			sum += atoi(argv[count]);
-
-		printf("%d\n", sum);
+		firstnum += atoi(argv[1]);
+		secnum += atoi(argv[2]);
+		mul = firstnum * secnum;
+		printf("%d\n", mul);
 	}
 	else
 	{
