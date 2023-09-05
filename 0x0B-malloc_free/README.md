@@ -1,5 +1,3 @@
-Sure, here's the README file in Markdown format:
-
 ```markdown
 # Malloc and Free in C
 
