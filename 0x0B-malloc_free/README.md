@@ -1,4 +1,3 @@
-```markdown
 # Malloc and Free in C
 
 This README provides an overview of the `malloc` and `free` functions in the C programming language. These functions are essential for dynamic memory allocation and deallocation in C programs.
