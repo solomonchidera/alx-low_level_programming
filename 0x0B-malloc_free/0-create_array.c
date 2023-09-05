@@ -5,7 +5,8 @@
  * @size: size of the array
  * @c: The character used for initialization
  *
- * Return: If size is 0 or memory allocation fails, returns NULL, Otherwise, returns a pointer to the newly created and initialized array.
+ * Return: If size is 0 or memory allocation fails, returns NULL,
+ * Otherwise, returns a pointer to the newly created and initialized array.
  */
 
 char *create_array(unsigned int size, char c)
@@ -15,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	/* Check for special cases */	
 	if (size == 0)
 		return (NULL);
-	
+
 	/* Allocate memory for the array */
 	array = (char *)malloc(size * sizeof(char));
 
