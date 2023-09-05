@@ -54,20 +54,23 @@ Here are some basic examples of how to use `malloc` and `free` in C:
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     int *arr;
     int size = 5;
 
     // Allocate memory for an array of integers
     arr = (int *)malloc(size * sizeof(int));
 
-    if (arr == NULL) {
+    if (arr == NULL)
+    {
         printf("Memory allocation failed.\n");
         return 1;
     }
 
     // Initialize the array
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++)
+    {
         arr[i] = i;
     }
 
