@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 #include <string.h>
 
 /**
  * _strdup - Duplicate a string.
  * @str: The string to duplicate.
  *
- * Return: Pointer to a new duplicate string or NULL if memory allocation fails.
+ * Return: Pointer to a new duplicate string or
+ * NULL if memory allocation fails.
  */
 char *_strdup(char *str)
 {
