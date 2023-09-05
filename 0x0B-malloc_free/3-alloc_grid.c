@@ -35,8 +35,6 @@ int **alloc_grid(int width, int height)
 
 		if (grid[i] == NULL)
 		{
-			/* Memory allocation for columns of a row failed,
-			 * clean up and return NULL */
 			for (j = 0; j < i; j++)
 			{
 				free(grid[j]);
@@ -54,6 +52,5 @@ int **alloc_grid(int width, int height)
 			grid[i][j] = 0;
 		}
 	}
-
 	return (grid);
 }
