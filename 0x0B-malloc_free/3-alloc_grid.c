@@ -42,7 +42,6 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-
 	/* Initialize all elements to 0 */
 	for (i = 0; i < height; i++)
 	{
