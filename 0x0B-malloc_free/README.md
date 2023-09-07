@@ -59,7 +59,7 @@ int main()
     int *arr;
     int size = 5;
 
-    // Allocate memory for an array of integers
+    /* Allocate memory for an array of integers */
     arr = (int *)malloc(size * sizeof(int));
 
     if (arr == NULL)
