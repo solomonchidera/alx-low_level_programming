@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 		arr[i++] = t++;
 	return (arr);
 /**
- * FileOwner: SolomonChidera
- * FileName: 3-array_range.c
+ * FileOwner - SolomonChidera
+ * FileName - 3-array_range.c
  */
 }
