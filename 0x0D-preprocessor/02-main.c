@@ -15,7 +15,6 @@ int main(void)
 
 	for (i = 0; i < file[i]; ++i)
 		putchar(file[i]);
-
 	putchar(10);
 	return (0);
 }
