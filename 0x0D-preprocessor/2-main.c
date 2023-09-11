@@ -14,7 +14,7 @@ int main(void)
 	file = __FILE__;
 
 	for (i = 0; i < file[i]; ++i)
-		Putchar(file[i]);
+		_putchar(file[i]);
 
 	_putchar(10);
 	return (0);
