@@ -8,6 +8,12 @@
 
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	int i;
+	char *file;
+	file = __FILE__;
+	
+	for (i = 0; i < file[i]; ++i)
+		Putchar(file[i]);
+
 	return (0);
 }
