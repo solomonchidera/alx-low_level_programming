@@ -5,7 +5,7 @@
  * @array: pointer to the first element
  * @size: size of the array
  * @action: fuction pointer
- * 
+ *
  * Return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
