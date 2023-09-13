@@ -8,5 +8,6 @@ int int_index(int *array, int size, int (*cmp)(int));
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stddef>
 
 #endif
