@@ -40,12 +40,13 @@ int (*add)(int, int);
 You can assign a function pointer to an existing function. The function's name itself acts as a pointer to the function. For example:
 
 ```c
-int sum(int a, int b) {
+int sum(int a, int b)
+{
     return a + b;
 }
 
-int (*function_ptr)(int, int); // Declare a function pointer
-function_ptr = sum;            // Assign the pointer to the sum function
+int (*function_ptr)(int, int); /* Declare a function pointer*/
+function_ptr = sum;            /*Assign the pointer to the sum function*/
 ```
 
 Alternatively, you can assign a function pointer directly during declaration:
@@ -59,13 +60,13 @@ int (*function_ptr)(int, int) = sum;
 Function pointers can be used to call functions indirectly. To invoke a function through a pointer, use the dereference operator (`*`) followed by the pointer name:
 
 ```c
-int result = (*function_ptr)(2, 3); // Calls the 'sum' function indirectly
+int result = (*function_ptr)(2, 3); /* Calls the 'sum' function indirectly*/
 ```
 
 Alternatively, you can use a shorthand notation:
 
 ```c
-int result = function_ptr(2, 3); // Calls the 'sum' function indirectly
+int result = function_ptr(2, 3); /*Calls the 'sum' function indirectly*/
 ```
 
 Function pointers are particularly useful for implementing callbacks and dynamic function dispatch.
@@ -77,15 +78,18 @@ Here's a simple example that demonstrates the use of function pointers to create
 ```c
 #include <stdio.h>
 
-int add(int a, int b) {
+int add(int a, int b)
+{
     return a + b;
 }
 
-int subtract(int a, int b) {
+int subtract(int a, int b)
+{
     return a - b;
 }
 
-int main() {
+int main(void)
+{
     int (*operation)(int, int);
     
     operation = add;
@@ -94,7 +98,7 @@ int main() {
     operation = subtract;
     printf("5 - 2 = %d\n", operation(5, 2));
     
-    return 0;
+    return (0);
 }
 ```
 
