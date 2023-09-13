@@ -3,10 +3,11 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
+	size_t i;
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < array[size]; i++)
 	{
-		action[i];
+		action(print_elem);
+		action(print_elem_hex);
 	}
 }
