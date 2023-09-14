@@ -1,5 +1,12 @@
 #include "variadic_functions.h"
 
+/**
+ * sum_them_all - variadic funtion that sum all it's parathesis
+ * @n: a constant unsigned integer
+ *
+ * Return: 0 if n == 0 otherwise return sum
+ */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	int sum = 0;
