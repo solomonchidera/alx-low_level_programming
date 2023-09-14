@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include "_putchar.c"
 
 /**
  * print_numbers - prints numbers, followed by a new line.
