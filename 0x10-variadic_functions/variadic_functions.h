@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef VARIADIC_FUN_H
+#define VARIADIC_FUN_H
 
 #include <stddef.h>
 #include <stdarg.h>
