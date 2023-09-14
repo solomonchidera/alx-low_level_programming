@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include "_putchar.c"
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -21,6 +22,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_end(num);
 	_putchar(10);
-
-	return (just_num);
 }
