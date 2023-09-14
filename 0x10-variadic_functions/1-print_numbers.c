@@ -1,6 +1,13 @@
 #include "variadic_functions.h"
 #include "_putchar.c"
 
+/**
+ * print_numbers - prints numbers, followed by a new line.
+ * @separator: is the string to be pronted between nmbs
+ * @n: number of args
+ * Return: nothing
+ */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i = 0;
