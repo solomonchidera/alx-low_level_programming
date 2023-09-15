@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers, followed by a new line.
- * @separator: is the string to be pronted between nmbs
+ * @separator: is the string to be printed between just_num
  * @n: number of args
  * Return: nothing
  */
