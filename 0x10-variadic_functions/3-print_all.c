@@ -4,15 +4,17 @@ void print_all(const char * const format, ...)
 {
 	int c, i;
 	double f;
-	char *s;
+	char *s, *separator;
+	const char *ptr;
 
 	va_list args;
 	va_start(args, format);
 
-	char *separator = "";
-	const char *ptr = format;
+	separator = "";
+	ptr = format;
 
-	while (*ptr) {
+	while (*ptr)
+	{
 		if (*ptr == 'c')
 		{
 			c = va_arg(args, int);
