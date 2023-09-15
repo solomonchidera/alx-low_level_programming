@@ -11,7 +11,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		ch = va_arg(args, const char*);
 
-		if (str != NULL)
+		if (ch != NULL)
 		{
 			printf("%s", ch);
 		}
