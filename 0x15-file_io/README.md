@@ -65,21 +65,21 @@ Here's a simple example of reading from one file and writing to another using fi
 
 int main(void)
 {
-    int input_fd = open("input.txt", O_RDONLY);
-    int output_fd = open("output.txt", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
+        int input_fd = open("input.txt", O_RDONLY);
+        int output_fd = open("output.txt", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 
-    char buffer[1024];
-    ssize_t bytes_read;
+        char buffer[1024];
+        ssize_t bytes_read;
 
-    while ((bytes_read = read(input_fd, buffer, sizeof(buffer))) > 0)
-    {
-        write(output_fd, buffer, bytes_read);
-    }
+        while ((bytes_read = read(input_fd, buffer, sizeof(buffer))) > 0)
+        {
+                write(output_fd, buffer, bytes_read);
+        }
 
-    close(input_fd);
-    close(output_fd);
+        close(input_fd);
+        close(output_fd);
 
-    return 0;
+        return (0);
 }
 ```
 
