@@ -10,8 +10,8 @@
 int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *current;
-
 	int sum;
+
 	sum = 0;
 
 	if (head == NULL)
