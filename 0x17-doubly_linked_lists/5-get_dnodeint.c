@@ -5,7 +5,7 @@
  * @head: A pointer to the head of the doubly linked list.
  * @index: The index of the node to retrieve, starting from 0.
  *
- * Return: A pointer to the nth node if found, or NULL if the node does not exist.
+ * Return: A pointer to the nth node if found.
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
