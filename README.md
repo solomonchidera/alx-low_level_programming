@@ -24,7 +24,7 @@ Some of the most common low-level programming languages include:
 
 2. **C Language**: While C is often considered a mid-level language, it provides a high degree of control over system resources and is frequently used for low-level programming tasks. It serves as the basis for many operating systems.
 
-3. **C++ Language**: C++ extends C with object-oriented features. It's used in low-level programming when both high-level abstractions and fine-grained control are needed.
+3. **C++ Language**: C++ extends C with object-oriented features. It's used in low-level programming when both high-level abstractions and fine-grained control are needed..
 
 ## Characteristics of Low-Level Languages
 
