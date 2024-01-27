@@ -1,4 +1,4 @@
-SRS = main.c school.c
+SRS = main.c school.c m.h
 cc = gcc
-all : $(SRS) m.h
+all : $(SRS)
 	$(cc) $(SRS) -o school
