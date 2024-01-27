@@ -1,4 +1,7 @@
-SRS = main.c school.c 
-cc = gcc
-all : $(SRS) m.h
-	$(cc) $(SRS)-o school
+school: school.c main.c
+
+CC = gcc
+SRC = school.c
+
+all: school
+	$(SRC)$(CC)-o $@ $^
